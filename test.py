@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 
 # Replace the following line with your RDS endpoint, database name, username, and password
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://username:password@rds-endpoint:3306/mydb_instance'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://quint1234:quint1234@mydb.c5waemoyctjc.us-east-1.rds.amazonaws.com:3306/mydb'
 
 db = SQLAlchemy(app)
 
